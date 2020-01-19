@@ -1,0 +1,106 @@
+.Arrows{
+    display: flex;
+    align-items: center;
+}
+.Parent{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+#left .large{
+    color: white;
+    cursor: pointer;
+    animation: moveLeft 1s infinite ease-out;
+    transition-duration: 0.5ms;
+}
+#left .small{
+    color: white;
+    transform: scale(1);
+    cursor: pointer;
+    animation: moveLeft 1s infinite ease-out;
+    transition-duration: 0.5ms;
+}
+#right .large{
+    color: white;
+    cursor: pointer;
+    animation: moveRight 1s infinite ease-out;
+    transition-duration: 0.5ms;
+}
+#right .small{
+    color: white;
+    transform: scale(1);
+    cursor: pointer;
+    animation: moveRight 1s infinite ease-out;
+    transition-duration: 0.5ms;
+}
+@keyframes moveLeft{
+    0%{
+        transform: scale(2.5);
+        transform: translateX(0px);
+    }
+    50%{
+        transform: scale(2.5);
+        transform: translateX(-15px);
+    }
+   100%{
+    transform: scale(2.5);
+    transform: translateX(0px);
+   }
+}
+@keyframes moveRight{
+    0%{
+        transform: scale(2.5);
+        transform: translateX(0px);
+    }
+    50%{
+        transform: scale(2.5);
+        transform: translateX(15px);
+    }
+   100%{
+    transform: scale(2.5);
+    transform: translateX(0px);
+   }
+}
+.loadingRings{
+     z-index: 5;
+     margin: auto;
+     margin-top: 20%;
+     height: 10vh;
+     width: 2em;
+     
+}
+.loadingRings #circle1{
+    color: white;
+    position: absolute;
+    transform: scale(0);
+    animation: ripple 1.5s infinite;
+}
+.loadingRings #circle2{
+    color: white;
+    position: absolute;
+    transform: scale(0);
+    animation: ripple 1.5s infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes ripple{
+    0%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    95%{
+        transform: scale(8);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+.loadingRings span{
+    position: absolute;
+    color: white;
+    transform: translate(-45%,70px);
+    font-size: 2em;
+    font-family: monospace;
+}
