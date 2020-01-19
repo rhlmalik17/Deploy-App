@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/deploy-app/static/css/main.6e06c00b.chunk.css",
+    "main.js": "/deploy-app/static/js/main.5e47cd7e.chunk.js",
+    "main.js.map": "/deploy-app/static/js/main.5e47cd7e.chunk.js.map",
+    "runtime-main.js": "/deploy-app/static/js/runtime-main.964815d9.js",
+    "runtime-main.js.map": "/deploy-app/static/js/runtime-main.964815d9.js.map",
+    "static/js/2.4a3f703e.chunk.js": "/deploy-app/static/js/2.4a3f703e.chunk.js",
+    "static/js/2.4a3f703e.chunk.js.map": "/deploy-app/static/js/2.4a3f703e.chunk.js.map",
+    "index.html": "/deploy-app/index.html",
+    "precache-manifest.2d291310a648ecad706d7aeba8a176b3.js": "/deploy-app/precache-manifest.2d291310a648ecad706d7aeba8a176b3.js",
+    "service-worker.js": "/deploy-app/service-worker.js",
+    "static/css/main.6e06c00b.chunk.css.map": "/deploy-app/static/css/main.6e06c00b.chunk.css.map",
+    "static/js/2.4a3f703e.chunk.js.LICENSE": "/deploy-app/static/js/2.4a3f703e.chunk.js.LICENSE",
+    "static/media/DarthVader.png": "/deploy-app/static/media/DarthVader.1295343e.png",
+    "static/media/Yoda.png": "/deploy-app/static/media/Yoda.47ad5904.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.964815d9.js",
+    "static/js/2.4a3f703e.chunk.js",
+    "static/css/main.6e06c00b.chunk.css",
+    "static/js/main.5e47cd7e.chunk.js"
+  ]
+}
